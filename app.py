@@ -8,7 +8,8 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://load-sahyog.vercel.app"])
+#ORS(app, origins=["https://load-sahyog.vercel.app"])https://load-sahyog.vercel.app/
 
 # Email Configuration
 SMTP_SERVER = "smtp.gmail.com"
