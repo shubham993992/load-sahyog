@@ -1,0 +1,11 @@
+
+# Node modules
+node_modules/
+ 
+# Previous/old files folder
+all previous files/
+ 
+
+ 
+# Environment variables (contains real secrets like Gmail password)
+.env
