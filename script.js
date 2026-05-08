@@ -5,7 +5,8 @@
 // ════════════════════════════════════════════════════
 
 // ── Flask Backend URL ─────────────────────────────────
-const BACKEND_URL = "http://localhost:5000";
+// const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://load-sahyog.onrender.com";//https://load-sahyog.onrender.com
 
 // ── Scroll Reveal ─────────────────────────────────────
 const revealObserver = new IntersectionObserver(entries => {
